@@ -1,0 +1,62 @@
+/* Candidate Dashboard Container */
+.candidate-container {
+    max-width: 100%;
+    /* height: 50rem; */
+    /* margin: 0 auto; */
+    margin-top: 3.5rem;
+    margin-bottom: 5rem;
+    padding: 20px;
+    background: linear-gradient(#ef7ed3, #f5bc41);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .cand-dashboard{
+    text-align: center;
+    padding-top: 5px;
+    /* margin-top: 4rem; */
+    font-size: 44px;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  /* Applied Jobs List */
+  .applied-jobs-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .applied-jobs-list .di {
+    background-color: #fff;
+    margin-left: 20rem;
+    margin-bottom: 20px;
+    width: 60%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Job Details */
+  .job-details {
+    margin: 8px 0;
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5rem;
+  }
+  
+  .job-details p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Media Queries for Responsiveness (customize as needed) */
+  @media screen and (max-width: 768px) {
+    .candidate-container {
+      padding: 10px;
+    }
+  
+    .applied-jobs-list li {
+      padding: 15px;
+    }
+  }
+  

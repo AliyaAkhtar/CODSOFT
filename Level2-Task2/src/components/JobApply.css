@@ -1,0 +1,87 @@
+/* JobApply.css */
+
+.apply-form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .apply-heading {
+    font-size: 44px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .apply-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  input[type="file"] {
+    margin-top: 5px;
+  }
+  
+  .applied {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .applied {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styling for success message (you can customize this further) */
+  .success-message {
+    text-align: center;
+    color: green;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Additional styling for error message (you can customize this further) */
+  .error-message {
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 600px) {
+    .apply-form-container {
+      max-width: 100%;
+      padding: 10px;
+    }
+  }
+  

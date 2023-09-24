@@ -1,0 +1,21 @@
+.header{
+    width: 100%;
+    height: 48rem;
+    background-image: url('../assests/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3.5rem;
+}
+.header-title{
+    position: absolute;
+    top: 25rem;
+    left: 4rem;
+    letter-spacing: 3;
+    font-weight: bolder;
+    font-size: 72px;
+    color: var(--white-color);
+    text-shadow: 4px 2px 0px rgba(0, 0, 0, 0.2);
+}
+.header-title > span{
+    color: var(--primary-color);
+}
